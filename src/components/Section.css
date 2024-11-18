@@ -1,0 +1,25 @@
+.background-section {
+  position: relative;
+  overflow: hidden; /* Ensures pseudo-element stays within bounds */
+}
+
+.background-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../Images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Optional background color overlay */
+  opacity: 0.5; /* Adjust opacity for transparency */
+  z-index: -1; /* Places the background below content */
+}

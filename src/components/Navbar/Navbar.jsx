@@ -23,15 +23,11 @@ const NavBar = () => {
   //   }
   // },[])
   return (
-    <Navbar
-      fixed="top"
-      expand="md"
-      className={isFixed ? "navbar fixed" : "navbar"}
-    >
+    <Navbar fixed="top" expand="md" className={isFixed && "navbar fixed"}>
       <Container className="navbar-container">
         <Navbar.Brand to="/">
           <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">Multimart</h1>
+          <h1 className="logo">Boutique</h1>
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">

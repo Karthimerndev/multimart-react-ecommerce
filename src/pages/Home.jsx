@@ -16,7 +16,7 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <Section
-        title="Big Discount"
+        title="Brand New Collections"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
       />

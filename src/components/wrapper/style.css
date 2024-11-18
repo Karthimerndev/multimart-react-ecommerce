@@ -16,12 +16,12 @@
 }
 
 .wrapper .row {
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .wrapper .feature {
   padding: 10px;
-  border: 4px solid white;
+  /* border: 4px solid white; */
 }
 
 .wrapper .feature h3 {
